@@ -1,4 +1,10 @@
+body{
+    background-color: #A5BEFA ;
+}
 
-form{
+h2{
     font-weight: bold;
+}
+main {
+    text-align: center; 
 }
