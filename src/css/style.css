@@ -6,38 +6,38 @@ ul{
     list-style: none;
 }
 
-.cabecalho{
+a{
+    text-decoration: none;
+}
+
+#cabecalho{
     display: flex;
     justify-content: center;
 
 }
 
-.cabecalho .logo{
+#cabecalho .logo{
     width: 35px;
     padding: 5px;
 }
-.cabecalho .menu{
+#cabecalho #menu{
     display: flex;
 }
 
-.container {
+#container {
     display: flex;
     align-items: center;
     height: 480px;
     padding: 0 30px 30px;
 }
 
-.container .info{
+#container #info{
     width: 550px;
     margin: 30px 0;
     text-align: justify;
 }
 
-.container .woman{
+#container #woman{
     margin-left: 80px ;
     width: 550px;
-}
-
-a:link {
-    text-decoration: none;
 }
